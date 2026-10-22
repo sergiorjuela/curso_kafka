@@ -1,0 +1,1164 @@
+Script started on 2026-10-19 22:49:52-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="151" LINES="51"]
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker compose -f docker-compose-lab-kafka.yml ps[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker compose -f docker-compose-lab-kafka.yml ps
+[?2004lNAME      IMAGE     COMMAND   SERVICE   CREATED   STATUS    PORTS
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker compose -f docker-compose-lab-kafka.yml up -d[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker compose -f docker-compose-lab-kafka.yml up -d
+[?2004l[?25l[0G[2K[+] up 0/3
+[2K [33m⠋[0m Container broker3 Starting                                                                                                                      [34m0.1s[0m
+[2K [33m⠋[0m Container broker2 Starting                                                                                                                      [34m0.1s[0m
+[2K [33m⠋[0m Container broker1 Starting                                                                                                                      [34m0.1s[0m
+[?25h[?25l[4A[0G
+[2K [33m⠙[0m Container broker3 Starting                                                                                                                      [34m0.2s[0m
+[2K [33m⠙[0m Container broker2 Starting                                                                                                                      [34m0.2s[0m
+[2K [33m⠙[0m Container broker1 Starting                                                                                                                      [34m0.2s[0m
+[?25h[?25l[4A[0G
+[2K [33m⠹[0m Container broker3 Starting                                                                                                                      [34m0.3s[0m
+[2K [33m⠹[0m Container broker2 Starting                                                                                                                      [34m0.3s[0m
+[2K [33m⠹[0m Container broker1 Starting                                                                                                                      [34m0.3s[0m
+[?25h[?25l[4A[0G
+[2K [33m⠸[0m Container broker3 Starting                                                                                                                      [34m0.4s[0m
+[2K [33m⠸[0m Container broker2 Starting                                                                                                                      [34m0.4s[0m
+[2K [33m⠸[0m Container broker1 Starting                                                                                                                      [34m0.4s[0m
+[?25h[?25l[4A[0G
+[2K [33m⠼[0m Container broker3 Starting                                                                                                                      [34m0.5s[0m
+[2K [33m⠼[0m Container broker2 Starting                                                                                                                      [34m0.5s[0m
+[2K [33m⠼[0m Container broker1 Starting                                                                                                                      [34m0.5s[0m
+[?25h[?25l[4A[0G[2K[+] up 1/3
+[2K [32m✔[0m Container broker3 [32mStarted[0m                                                                                                                       [34m0.5s[0m
+[2K [33m⠴[0m Container broker2 Starting                                                                                                                      [34m0.6s[0m
+[2K [33m⠴[0m Container broker1 Starting                                                                                                                      [34m0.6s[0m
+[?25h[?25l[4A[0G
+
+[2K [33m⠦[0m Container broker2 Starting                                                                                                                      [34m0.7s[0m
+[2K [33m⠦[0m Container broker1 Starting                                                                                                                      [34m0.7s[0m
+[?25h[?25l[4A[0G
+
+[2K [33m⠧[0m Container broker2 Starting                                                                                                                      [34m0.8s[0m
+[2K [33m⠧[0m Container broker1 Starting                                                                                                                      [34m0.8s[0m
+[?25h[?25l[4A[0G[2K[+] up 2/3
+
+[2K [32m✔[0m Container broker2 [32mStarted[0m                                                                                                                       [34m0.8s[0m
+[2K [33m⠇[0m Container broker1 Starting                                                                                                                      [34m0.9s[0m
+[?25h[?25l[4A[0G
+
+
+[2K [33m⠏[0m Container broker1 Starting                                                                                                                      [34m1.0s[0m
+[?25h[?25l[4A[0G
+
+
+[2K [33m⠋[0m Container broker1 Starting                                                                                                                      [34m1.1s[0m
+[?25h[?25l[4A[0G[2K[+] up 0/4
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m1.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m1.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m1.2s[0m
+[2K [33m⠋[0m Container kafka-ui Starting                                                                                                                     [34m0.0s[0m
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m1.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m1.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m1.3s[0m
+[2K [33m⠙[0m Container kafka-ui Starting                                                                                                                     [34m0.1s[0m
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m1.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m1.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m1.4s[0m
+[2K [33m⠹[0m Container kafka-ui Starting                                                                                                                     [34m0.2s[0m
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m1.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m1.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m1.5s[0m
+[2K [33m⠸[0m Container kafka-ui Starting                                                                                                                     [34m0.3s[0m
+[?25h[?25l[5A[0G[2K[+] up 1/4
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m1.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m1.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m1.6s[0m
+[2K [32m✔[0m Container kafka-ui [32mStarted[0m                                                                                                                      [34m0.4s[0m
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m1.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m1.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m1.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m1.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m1.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m1.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m1.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m1.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m1.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m2.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m2.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m2.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m2.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m2.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m2.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m2.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m2.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m2.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m2.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m2.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m2.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m2.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m2.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m2.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m2.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m2.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m2.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m2.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m2.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m2.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m2.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m2.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m2.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m2.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m2.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m2.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m2.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m2.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m2.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m3.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m3.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m3.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m3.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m3.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m3.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m3.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m3.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m3.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m3.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m3.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m3.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m3.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m3.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m3.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m3.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m3.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m3.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m3.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m3.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m3.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m3.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m3.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m3.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m3.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m3.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m3.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m3.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m3.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m3.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m4.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m4.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m4.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m4.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m4.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m4.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m4.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m4.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m4.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m4.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m4.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m4.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m4.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m4.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m4.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m4.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m4.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m4.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m4.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m4.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m4.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m4.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m4.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m4.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m4.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m4.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m4.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m4.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m4.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m4.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m5.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m5.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m5.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m5.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m5.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m5.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m5.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m5.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m5.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m5.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m5.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m5.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m5.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m5.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m5.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m5.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m5.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m5.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m5.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m5.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m5.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m5.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m5.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m5.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m5.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m5.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m5.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m5.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m5.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m5.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m6.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m6.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m6.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m6.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m6.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m6.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m6.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m6.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m6.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m6.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m6.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m6.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m6.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m6.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m6.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m6.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m6.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m6.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m6.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m6.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m6.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m6.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m6.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m6.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m6.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m6.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m6.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m6.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m6.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m6.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m7.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m7.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m7.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m7.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m7.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m7.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m7.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m7.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m7.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m7.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m7.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m7.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m7.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m7.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m7.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m7.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m7.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m7.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m7.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m7.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m7.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m7.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m7.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m7.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m7.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m7.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m7.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m7.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m7.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m7.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m8.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m8.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m8.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m8.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m8.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m8.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m8.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m8.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m8.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m8.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m8.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m8.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m8.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m8.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m8.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m8.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m8.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m8.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m8.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m8.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m8.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m8.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m8.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m8.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m8.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m8.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m8.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m8.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m8.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m8.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                      [34m9.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                      [34m9.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                      [34m9.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                      [34m9.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                      [34m9.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                      [34m9.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                      [34m9.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                      [34m9.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                      [34m9.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                      [34m9.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                      [34m9.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                      [34m9.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                      [34m9.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                      [34m9.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                      [34m9.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                      [34m9.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                      [34m9.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                      [34m9.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                      [34m9.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                      [34m9.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                      [34m9.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                      [34m9.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                      [34m9.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                      [34m9.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                      [34m9.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                      [34m9.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                      [34m9.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                      [34m9.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                      [34m9.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                      [34m9.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m10.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m10.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m10.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m10.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m10.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m10.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m10.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m10.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m10.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m10.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m10.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m10.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m10.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m10.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m10.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m10.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m10.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m10.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m10.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m10.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m10.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m10.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m10.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m10.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m10.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m10.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m10.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m10.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m10.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m10.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m11.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m11.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m11.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m11.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m11.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m11.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m11.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m11.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m11.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m11.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m11.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m11.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m11.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m11.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m11.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m11.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m11.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m11.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m11.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m11.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m11.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m11.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m11.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m11.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m11.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m11.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m11.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m11.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m11.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m11.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m12.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m12.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m12.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m12.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m12.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m12.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m12.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m12.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m12.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m12.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m12.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m12.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m12.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m12.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m12.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m12.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m12.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m12.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m12.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m12.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m12.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m12.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m12.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m12.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m12.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m12.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m12.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m12.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m12.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m12.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m13.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m13.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m13.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m13.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m13.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m13.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m13.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m13.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m13.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m13.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m13.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m13.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m13.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m13.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m13.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m13.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m13.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m13.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m13.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m13.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m13.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m13.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m13.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m13.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m13.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m13.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m13.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m13.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m13.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m13.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m14.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m14.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m14.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m14.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m14.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m14.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m14.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m14.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m14.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m14.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m14.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m14.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m14.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m14.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m14.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m14.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m14.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m14.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m14.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m14.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m14.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m14.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m14.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m14.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m14.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m14.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m14.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m14.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m14.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m14.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m15.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m15.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m15.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m15.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m15.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m15.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m15.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m15.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m15.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m15.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m15.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m15.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m15.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m15.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m15.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m15.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m15.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m15.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m15.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m15.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m15.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m15.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m15.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m15.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m15.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m15.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m15.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m15.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m15.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m15.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m16.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m16.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m16.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m16.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m16.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m16.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m16.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m16.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m16.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m16.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m16.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m16.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m16.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m16.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m16.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m16.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m16.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m16.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m16.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m16.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m16.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m16.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m16.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m16.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m16.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m16.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m16.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m16.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m16.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m16.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m17.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m17.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m17.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m17.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m17.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m17.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m17.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m17.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m17.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m17.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m17.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m17.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m17.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m17.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m17.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m17.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m17.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m17.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m17.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m17.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m17.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m17.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m17.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m17.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m17.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m17.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m17.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m17.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m17.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m17.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m18.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m18.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m18.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m18.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m18.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m18.1s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠙[0m Container broker3  Waiting                                                                                                                     [34m18.2s[0m
+[2K [33m⠙[0m Container broker2  Waiting                                                                                                                     [34m18.2s[0m
+[2K [33m⠙[0m Container broker1  Waiting                                                                                                                     [34m18.2s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠹[0m Container broker3  Waiting                                                                                                                     [34m18.3s[0m
+[2K [33m⠹[0m Container broker2  Waiting                                                                                                                     [34m18.3s[0m
+[2K [33m⠹[0m Container broker1  Waiting                                                                                                                     [34m18.3s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠸[0m Container broker3  Waiting                                                                                                                     [34m18.4s[0m
+[2K [33m⠸[0m Container broker2  Waiting                                                                                                                     [34m18.4s[0m
+[2K [33m⠸[0m Container broker1  Waiting                                                                                                                     [34m18.4s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠼[0m Container broker3  Waiting                                                                                                                     [34m18.5s[0m
+[2K [33m⠼[0m Container broker2  Waiting                                                                                                                     [34m18.5s[0m
+[2K [33m⠼[0m Container broker1  Waiting                                                                                                                     [34m18.5s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠴[0m Container broker3  Waiting                                                                                                                     [34m18.6s[0m
+[2K [33m⠴[0m Container broker2  Waiting                                                                                                                     [34m18.6s[0m
+[2K [33m⠴[0m Container broker1  Waiting                                                                                                                     [34m18.6s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠦[0m Container broker3  Waiting                                                                                                                     [34m18.7s[0m
+[2K [33m⠦[0m Container broker2  Waiting                                                                                                                     [34m18.7s[0m
+[2K [33m⠦[0m Container broker1  Waiting                                                                                                                     [34m18.7s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠧[0m Container broker3  Waiting                                                                                                                     [34m18.8s[0m
+[2K [33m⠧[0m Container broker2  Waiting                                                                                                                     [34m18.8s[0m
+[2K [33m⠧[0m Container broker1  Waiting                                                                                                                     [34m18.8s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠇[0m Container broker3  Waiting                                                                                                                     [34m18.9s[0m
+[2K [33m⠇[0m Container broker2  Waiting                                                                                                                     [34m18.9s[0m
+[2K [33m⠇[0m Container broker1  Waiting                                                                                                                     [34m18.9s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠏[0m Container broker3  Waiting                                                                                                                     [34m19.0s[0m
+[2K [33m⠏[0m Container broker2  Waiting                                                                                                                     [34m19.0s[0m
+[2K [33m⠏[0m Container broker1  Waiting                                                                                                                     [34m19.0s[0m
+
+[?25h[?25l[5A[0G
+[2K [33m⠋[0m Container broker3  Waiting                                                                                                                     [34m19.1s[0m
+[2K [33m⠋[0m Container broker2  Waiting                                                                                                                     [34m19.1s[0m
+[2K [33m⠋[0m Container broker1  Waiting                                                                                                                     [34m19.1s[0m
+
+[?25h[?25l[5A[0G[2K[+] up 4/5
+[2K [32m✔[0m Container broker3          [32mHealthy[0m                                                                                                             [34m19.1s[0m
+[2K [32m✔[0m Container broker2          [32mHealthy[0m                                                                                                             [34m19.1s[0m
+[2K [32m✔[0m Container broker1          [32mHealthy[0m                                                                                                             [34m19.1s[0m
+[2K [32m✔[0m Container kafka-ui         [32mStarted[0m                                                                                                              [34m0.4s[0m
+[2K [33m⠋[0m Container bootstrap-topics Starting                                                                                                             [34m0.0s[0m
+[?25h[?25l[6A[0G
+
+
+
+
+[2K [33m⠙[0m Container bootstrap-topics Starting                                                                                                             [34m0.1s[0m
+[?25h[?25l[6A[0G
+
+
+
+
+[2K [33m⠹[0m Container bootstrap-topics Starting                                                                                                             [34m0.2s[0m
+[?25h[?25l[6A[0G[2K[+] up 5/5
+
+
+
+
+[2K [32m✔[0m Container bootstrap-topics [32mStarted[0m                                                                                                              [34m0.3s[0m
+[?25h[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# docker compose -f docker-compose-lab-kafka.yml up -d[3Pps
+[?2004lNAME       IMAGE                            COMMAND                  SERVICE    CREATED          STATUS                    PORTS
+broker1    apache/kafka:3.9.0               "/__cacert_entrypoin…"   broker1    58 minutes ago   Up 26 seconds (healthy)   0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp, 0.0.0.0:9101->9101/tcp, [::]:9101->9101/tcp
+broker2    apache/kafka:3.9.0               "/__cacert_entrypoin…"   broker2    58 minutes ago   Up 26 seconds (healthy)   0.0.0.0:9094->9094/tcp, [::]:9094->9094/tcp, 0.0.0.0:9102->9102/tcp, [::]:9102->9102/tcp
+broker3    apache/kafka:3.9.0               "/__cacert_entrypoin…"   broker3    58 minutes ago   Up 27 seconds (healthy)   0.0.0.0:9096->9096/tcp, [::]:9096->9096/tcp, 0.0.0.0:9103->9103/tcp, [::]:9103->9103/tcp
+kafka-ui   ghcr.io/kafbat/kafka-ui:v1.1.0   "/bin/sh -c 'java --…"   kafka-ui   58 minutes ago   Up 26 seconds             0.0.0.0:8081->8080/tcp, [::]:8081->8080/tcp
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mkq describe --status[27mkq describe --status
+[?2004lkq: command not found
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mkt='docker exec broker1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1:19092'[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckt='docker exec broker1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1:19092'
+[A
+[?2004l[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# kt='docker exec broker1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1:19092'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mkq='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-server broker1:19092'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckq='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-server broker1:19092'
+[?2004l[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# kq='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-server broker1:19092'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pt='docker exec broker1 /opt/kafka/bin/kafka-topics[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@q='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pt='docker exec broker1 /opt/kafka/bin/kafka-topics[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq describe --status[K
+[?2004lkq: command not found
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# kq describe --status='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-server broker1:19092'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pt='docker exec broker1 /opt/kafka/bin/kafka-topics[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq describe --status[K
+[?2004lkq: command not found
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7malias kq='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-server broker1:19092'[27m
+[7malias kt='docker exec broker1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1:19092'[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Calias kq='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-server broker1:19092'
+alias kt='docker exec broker1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1:19092'
+[?2004l[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# alias kt='docker exec broker1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1:19092'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@q='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckq describe --status[K
+[?2004lClusterId:              dian-kafka-lab-2026
+LeaderId:               2
+LeaderEpoch:            162
+HighWatermark:          7655
+MaxFollowerLag:         0
+MaxFollowerLagTimeMs:   -2458
+CurrentVoters:          [{"id": 1, "directoryId": null, "endpoints": ["CONTROLLER://broker1:9093"]}, {"id": 2, "directoryId": null, "endpoints": ["CONTROLLER://broker2:9093"]}, {"id": 3, "directoryId": null, "endpoints": ["CONTROLLER://broker3:9093"]}]
+CurrentObservers:       []
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mkq describe --replication[27mkq describe --replication
+[?2004lNodeId	DirectoryId           	LogEndOffset	Lag	LastFetchTimestamp	LastCaughtUpTimestamp	Status  	
+1     	AAAAAAAAAAAAAAAAAAAAAA	7894        	0  	1792468489195     	1792468489195        	Leader  	
+2     	AAAAAAAAAAAAAAAAAAAAAA	7885        	9  	1792468487114     	1792468487114        	Follower	
+3     	AAAAAAAAAAAAAAAAAAAAAA	7885        	9  	1792468487114     	1792468487114        	Follower	
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker exec broker1 ls -lh /var/lib/kafka/data/__cluster_metadata-0/[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec broker1 ls -lh /var/lib/kafka/data/__cluster_metadata-0/
+[?2004ltotal 592K
+-rw-r--r-- 1 appuser appuser  10M Oct 20 03:55 00000000000000000000.index
+-rw-r--r-- 1 appuser appuser 552K Oct 20 03:55 00000000000000000000.log
+-rw-r--r-- 1 appuser appuser  10M Oct 20 03:55 00000000000000000000.timeindex
+-rw-r--r-- 1 appuser appuser   10 Oct 20 03:51 00000000000000007183.snapshot
+-rw-r--r-- 1 appuser appuser   10 Oct 20 03:52 00000000000000007535.snapshot
+-rw-r--r-- 1 appuser appuser   10 Oct 20 03:52 00000000000000007595.snapshot
+-rw-r--r-- 1 appuser appuser   10 Oct 20 03:54 00000000000000007885.snapshot
+-rw-r--r-- 1 appuser appuser  634 Oct 20 03:55 leader-epoch-checkpoint
+-rw-r--r-- 1 appuser appuser   43 Oct 20 02:53 partition.metadata
+-rw-r--r-- 1 appuser appuser  155 Oct 20 03:55 quorum-state
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder \[27m
+[7m  --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -E "TOPIC_RECORD|PARTITION_RECORD|REGISTER_BROKER" | head -20[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder \
+  --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -E "TOPIC_RECORD|PARTITION_RECORD|REGISTER_BROKER" | head -20
+[?2004l| offset: 5 CreateTime: 1792464795594 keySize: -1 valueSize: 144 sequence: -1 headerKeys: [] payload: {"type":"REGISTER_BROKER_RECORD","version":3,"data":{"brokerId":3,"isMigratingZkBroker":false,"incarnationId":"gKjivckgQQ-WLOM9Vrb5Cw","brokerEpoch":5,"endPoints":[{"name":"INTERNAL","host":"broker3","port":19092,"securityProtocol":0},{"name":"EXTERNAL","host":"localhost","port":9096,"securityProtocol":0}],"features":[{"name":"kraft.version","minSupportedVersion":0,"maxSupportedVersion":1},{"name":"metadata.version","minSupportedVersion":1,"maxSupportedVersion":21}],"rack":null,"fenced":true,"inControlledShutdown":false,"logDirs":["qKp3wcYKNg7Ujx49xm6pEA"]}}
+| offset: 6 CreateTime: 1792464795594 keySize: -1 valueSize: 144 sequence: -1 headerKeys: [] payload: {"type":"REGISTER_BROKER_RECORD","version":3,"data":{"brokerId":1,"isMigratingZkBroker":false,"incarnationId":"dmUIVn80T3mbatBUCsLb7Q","brokerEpoch":6,"endPoints":[{"name":"INTERNAL","host":"broker1","port":19092,"securityProtocol":0},{"name":"EXTERNAL","host":"localhost","port":9092,"securityProtocol":0}],"features":[{"name":"kraft.version","minSupportedVersion":0,"maxSupportedVersion":1},{"name":"metadata.version","minSupportedVersion":1,"maxSupportedVersion":21}],"rack":null,"fenced":true,"inControlledShutdown":false,"logDirs":["IiXMEC4kdZ6PKukgvq58fw"]}}
+| offset: 7 CreateTime: 1792464795594 keySize: -1 valueSize: 144 sequence: -1 headerKeys: [] payload: {"type":"REGISTER_BROKER_RECORD","version":3,"data":{"brokerId":2,"isMigratingZkBroker":false,"incarnationId":"N3uDxS3sTayiit3BaDrRlg","brokerEpoch":7,"endPoints":[{"name":"INTERNAL","host":"broker2","port":19092,"securityProtocol":0},{"name":"EXTERNAL","host":"localhost","port":9094,"securityProtocol":0}],"features":[{"name":"kraft.version","minSupportedVersion":0,"maxSupportedVersion":1},{"name":"metadata.version","minSupportedVersion":1,"maxSupportedVersion":21}],"rack":null,"fenced":true,"inControlledShutdown":false,"logDirs":["RRRE47Pear5ZXIpFrB48WA"]}}
+| offset: 41 CreateTime: 1792464806704 keySize: -1 valueSize: 45 sequence: -1 headerKeys: [] payload: {"type":"TOPIC_RECORD","version":0,"data":{"name":"dian.facturacion.emitida","topicId":"GKi2jQA9Ruy2GTEhZHzkTw"}}
+| offset: 44 CreateTime: 1792464806704 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":0,"topicId":"GKi2jQA9Ruy2GTEhZHzkTw","replicas":[2,3,1],"isr":[2,3,1],"removingReplicas":[],"addingReplicas":[],"leader":2,"leaderEpoch":0,"partitionEpoch":0,"directories":["RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw"]}}
+| offset: 45 CreateTime: 1792464806704 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":1,"topicId":"GKi2jQA9Ruy2GTEhZHzkTw","replicas":[3,1,2],"isr":[3,1,2],"removingReplicas":[],"addingReplicas":[],"leader":3,"leaderEpoch":0,"partitionEpoch":0,"directories":["qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA"]}}
+| offset: 46 CreateTime: 1792464806704 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":2,"topicId":"GKi2jQA9Ruy2GTEhZHzkTw","replicas":[1,2,3],"isr":[1,2,3],"removingReplicas":[],"addingReplicas":[],"leader":1,"leaderEpoch":0,"partitionEpoch":0,"directories":["IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA"]}}
+| offset: 47 CreateTime: 1792464806704 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":3,"topicId":"GKi2jQA9Ruy2GTEhZHzkTw","replicas":[1,2,3],"isr":[1,2,3],"removingReplicas":[],"addingReplicas":[],"leader":1,"leaderEpoch":0,"partitionEpoch":0,"directories":["IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA"]}}
+| offset: 48 CreateTime: 1792464806704 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":4,"topicId":"GKi2jQA9Ruy2GTEhZHzkTw","replicas":[2,3,1],"isr":[2,3,1],"removingReplicas":[],"addingReplicas":[],"leader":2,"leaderEpoch":0,"partitionEpoch":0,"directories":["RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw"]}}
+| offset: 49 CreateTime: 1792464806704 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":5,"topicId":"GKi2jQA9Ruy2GTEhZHzkTw","replicas":[3,1,2],"isr":[3,1,2],"removingReplicas":[],"addingReplicas":[],"leader":3,"leaderEpoch":0,"partitionEpoch":0,"directories":["qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA"]}}
+| offset: 53 CreateTime: 1792464808593 keySize: -1 valueSize: 48 sequence: -1 headerKeys: [] payload: {"type":"TOPIC_RECORD","version":0,"data":{"name":"dian.declaracion.presentada","topicId":"0TqhgZ_0TseuB0wyr1U0dw"}}
+| offset: 56 CreateTime: 1792464808593 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":0,"topicId":"0TqhgZ_0TseuB0wyr1U0dw","replicas":[3,1,2],"isr":[3,1,2],"removingReplicas":[],"addingReplicas":[],"leader":3,"leaderEpoch":0,"partitionEpoch":0,"directories":["qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA"]}}
+| offset: 57 CreateTime: 1792464808593 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":1,"topicId":"0TqhgZ_0TseuB0wyr1U0dw","replicas":[1,2,3],"isr":[1,2,3],"removingReplicas":[],"addingReplicas":[],"leader":1,"leaderEpoch":0,"partitionEpoch":0,"directories":["IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA"]}}
+| offset: 58 CreateTime: 1792464808593 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":2,"topicId":"0TqhgZ_0TseuB0wyr1U0dw","replicas":[2,3,1],"isr":[2,3,1],"removingReplicas":[],"addingReplicas":[],"leader":2,"leaderEpoch":0,"partitionEpoch":0,"directories":["RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw"]}}
+| offset: 59 CreateTime: 1792464808593 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":3,"topicId":"0TqhgZ_0TseuB0wyr1U0dw","replicas":[1,3,2],"isr":[1,3,2],"removingReplicas":[],"addingReplicas":[],"leader":1,"leaderEpoch":0,"partitionEpoch":0,"directories":["IiXMEC4kdZ6PKukgvq58fw","qKp3wcYKNg7Ujx49xm6pEA","RRRE47Pear5ZXIpFrB48WA"]}}
+| offset: 60 CreateTime: 1792464808593 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":4,"topicId":"0TqhgZ_0TseuB0wyr1U0dw","replicas":[3,2,1],"isr":[3,2,1],"removingReplicas":[],"addingReplicas":[],"leader":3,"leaderEpoch":0,"partitionEpoch":0,"directories":["qKp3wcYKNg7Ujx49xm6pEA","RRRE47Pear5ZXIpFrB48WA","IiXMEC4kdZ6PKukgvq58fw"]}}
+| offset: 61 CreateTime: 1792464808593 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":5,"topicId":"0TqhgZ_0TseuB0wyr1U0dw","replicas":[2,1,3],"isr":[2,1,3],"removingReplicas":[],"addingReplicas":[],"leader":2,"leaderEpoch":0,"partitionEpoch":0,"directories":["RRRE47Pear5ZXIpFrB48WA","IiXMEC4kdZ6PKukgvq58fw","qKp3wcYKNg7Ujx49xm6pEA"]}}
+| offset: 66 CreateTime: 1792464810321 keySize: -1 valueSize: 57 sequence: -1 headerKeys: [] payload: {"type":"TOPIC_RECORD","version":0,"data":{"name":"dian.aduanas.declaracion-importacion","topicId":"DgMf9x6bRuaVyvIqcTYLYw"}}
+| offset: 68 CreateTime: 1792464810321 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":0,"topicId":"DgMf9x6bRuaVyvIqcTYLYw","replicas":[3,1,2],"isr":[3,1,2],"removingReplicas":[],"addingReplicas":[],"leader":3,"leaderEpoch":0,"partitionEpoch":0,"directories":["qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA"]}}
+| offset: 69 CreateTime: 1792464810321 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":1,"topicId":"DgMf9x6bRuaVyvIqcTYLYw","replicas":[1,2,3],"isr":[1,2,3],"removingReplicas":[],"addingReplicas":[],"leader":1,"leaderEpoch":0,"partitionEpoch":0,"directories":["IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA"]}}
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mEQUIPO=equipo01[27m
+[7mTOPIC=$EQUIPO.lab02.declaracion.presentada[27m
+[7mkt --create --topic "$TOPIC" --partitions 3 --replication-factor 3[27m
+[7mdocker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder \[27m
+[7m  --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -A3 "$TOPIC" | head -20[27m[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CEQUIPO=equipo01
+TOPIC=$EQUIPO.lab02.declaracion.presentada
+kt --create --topic "$TOPIC" --partitions 3 --replication-factor 3
+docker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder \
+  --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -A3 "$TOPIC" | head -20[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[Adocker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder   --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -E "TOPIC_RECORD|PARTITION_RECORD|REGISTER_BROKER" | head -20
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CEQUIPO=equipo01                                                                                          T[77POPIC=$EQUIPO.lab02.declaracion.presentada
+kt --create --topic "$TOPIC" --partitions 3 --replication-factor 3
+docker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder \
+  --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -A3 "$TOPIC" | head -20[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder   --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -E "TOPIC_RECORD|PARTITION_RECORD|REGISTER_BROKER" | head -20
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CEQUIPO=equipo01                                                                                          T[77POPIC=$EQUIPO.lab02.declaracion.presentada
+kt --create --topic "$TOPIC" --partitions 3 --replication-factor 3
+docker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder \
+  --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -A3 "$TOPIC" | head -20[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 6
+
+
+
+
+[?2004lWARNING: Due to limitations in metric names, topics with a period ('.') or underscore ('_') could collide. To avoid issues it is best to use either, but not both.
+Created topic equipo06.lab02.declaracion.presentada.
+| offset: 8654 CreateTime: 1792468851735 keySize: -1 valueSize: 58 sequence: -1 headerKeys: [] payload: {"type":"TOPIC_RECORD","version":0,"data":{"name":"equipo06.lab02.declaracion.presentada","topicId":"lZv2UDqUTQG2VIDXFdaNVA"}}
+| offset: 8655 CreateTime: 1792468851735 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":0,"topicId":"lZv2UDqUTQG2VIDXFdaNVA","replicas":[2,3,1],"isr":[2,3,1],"removingReplicas":[],"addingReplicas":[],"leader":2,"leaderEpoch":0,"partitionEpoch":0,"directories":["RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw"]}}
+| offset: 8656 CreateTime: 1792468851735 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":1,"topicId":"lZv2UDqUTQG2VIDXFdaNVA","replicas":[3,1,2],"isr":[3,1,2],"removingReplicas":[],"addingReplicas":[],"leader":3,"leaderEpoch":0,"partitionEpoch":0,"directories":["qKp3wcYKNg7Ujx49xm6pEA","IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA"]}}
+| offset: 8657 CreateTime: 1792468851735 keySize: -1 valueSize: 113 sequence: -1 headerKeys: [] payload: {"type":"PARTITION_RECORD","version":1,"data":{"partitionId":2,"topicId":"lZv2UDqUTQG2VIDXFdaNVA","replicas":[1,2,3],"isr":[1,2,3],"removingReplicas":[],"addingReplicas":[],"leader":1,"leaderEpoch":0,"partitionEpoch":0,"directories":["IiXMEC4kdZ6PKukgvq58fw","RRRE47Pear5ZXIpFrB48WA","qKp3wcYKNg7Ujx49xm6pEA"]}}
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7m"[27m"[7m"[27m[K[K[7mdate +%T[27mdate +%T
+[?2004l23:07:17
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mCONTROLADOR=2       # cambie por el LeaderId anotado en el paso 2[27m
+[7mBROKER_VIVO=1       # use 2 o 3 si CONTROLADOR es 1[27m
+[7mdate +%T[27m
+[7mdocker stop broker$CONTROLADOR[27m
+[7mdocker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-metadata-quorum.sh \[27m
+[7m  --bootstrap-server broker$BROKER_VIVO:19092 describe --status[27m
+[7mdate +%T[27m[A[A[A[A[A[A]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# CONTROLADOR=2       # cambie por el LeaderId anotado en el paso 2
+BROKER_VIVO=1       # use 2 o 3 si CONTROLADOR es 1
+date +%T
+docker stop broker$CONTROLADOR
+docker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-metadata-quorum.sh \
+  --bootstrap-server broker$BROKER_VIVO:19092 describe --status
+date +%T
+[?2004l23:07:42
+broker2
+ClusterId:              dian-kafka-lab-2026
+LeaderId:               1
+LeaderEpoch:            205
+HighWatermark:          9654
+MaxFollowerLag:         9655
+MaxFollowerLagTimeMs:   -1
+CurrentVoters:          [{"id": 1, "directoryId": null, "endpoints": ["CONTROLLER://broker1:9093"]}, {"id": 2, "directoryId": null, "endpoints": ["CONTROLLER://broker2:9093"]}, {"id": 3, "directoryId": null, "endpoints": ["CONTROLLER://broker3:9093"]}]
+CurrentObservers:       []
+23:07:57
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-topics.sh \[27m
+[7m  --bootstrap-server broker$BROKER_VIVO:19092 --describe \[27m
+[7m  --topic "$TOPIC"[27m[A[A]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# docker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-topics.sh \
+  --bootstrap-server broker$BROKER_VIVO:19092 --describe \
+  --topic "$TOPIC"
+[?2004lTopic: equipo06.lab02.declaracion.presentada	TopicId: lZv2UDqUTQG2VIDXFdaNVA	PartitionCount: 3	ReplicationFactor: 3	Configs: min.insync.replicas=2,unclean.leader.election.enable=false
+	Topic: equipo06.lab02.declaracion.presentada	Partition: 0	Leader: 3	Replicas: 2,3,1	Isr: 3,1	Elr: 	LastKnownElr: 
+	Topic: equipo06.lab02.declaracion.presentada	Partition: 1	Leader: 3	Replicas: 3,1,2	Isr: 3,1	Elr: 	LastKnownElr: 
+	Topic: equipo06.lab02.declaracion.presentada	Partition: 2	Leader: 1	Replicas: 1,2,3	Isr: 1,3	Elr: 	LastKnownElr: 
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker start broker$CONTROLADOR[27mdocker start broker$CONTROLADOR
+[?2004lbroker2
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# docker start broker$CONTROLADORexec broker$BROKER_VIVO /opt/kafka/bin/kafka-topics.sh   --bootstrap-server broker$BROKER_VIVO:19092 --describe   --topic "$TOPIC"[A]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [Cate +%T[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cocker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-metadata-quorum.sh   --bootstrap-server broker$BROKER_VIVO:19092 describe --status[A]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [C[C[C[C[C[C[Cstop broker$CONTROLADOR[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cate +%T[KBROKER_VIVO=1       # use 2 o 3 si CONTROLADOR es 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCONTROLADOR=2       # cambie por el LeaderId anotado en el paso 2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdate +%T[Kocker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder   --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -A3 "$TOPIC" | head -20[A[39Pkt --create --topic "$TOPIC" --partitions 3 --replication-factor 3
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24PTOPIC=$EQUIPO.lab02.declaracion.presentada[27PEQUIPO=equipo06docker exec broker1 /opt/kafka/bin/kafka-dump-log.sh --cluster-metadata-decoder   --files /var/lib/kafka/data/__cluster_metadata-0/00000000000000000000.log | grep -E "TOPIC_RECORD|PARTITION_RECORD|REGISTER_BROKER" | head -20[A[37Pls -lh /var/lib/kafka/data/__cluster_metadata-0/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[43Pkq describe --replication[5Pstatusalias kt='docker exec broker1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server broker1:19092'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@q='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckq describe --status[K='docker exec broker1 /opt/kafka/bin/kafka-metadata-quorum.sh --bootstrap-server broker1:19092'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pt='docker exec broker1 /opt/kafka/bin/kafka-topics[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq describe --status[Kdocker compose -f docker-compose-lab-kafka.yml psup -d[3Pps[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mdate +%T[27m
+[7mdocker stop broker$CONTROLADOR[27m
+[7mdocker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-metadata-quorum.sh \[27m
+[7m  --bootstrap-server broker$BROKER_VIVO:19092 describe --status[27m
+[7mdate +%T[27m[A[A[A[A]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# date +%T
+docker stop broker$CONTROLADOR
+docker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-metadata-quorum.sh \
+  --bootstrap-server broker$BROKER_VIVO:19092 describe --status
+date +%T[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[7mdocker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-metadata-quorum.sh \[27m
+[7m  --bootstrap-server broker$BROKER_VIVO:19092 describe --status[27m[Adocker exec broker$BROKER_VIVO /opt/kafka/bin/kafka-metadata-quorum.sh \
+  --bootstrap-server broker$BROKER_VIVO:19092 describe --status
+[?2004lClusterId:              dian-kafka-lab-2026
+LeaderId:               1
+LeaderEpoch:            220
+HighWatermark:          10222
+MaxFollowerLag:         0
+MaxFollowerLagTimeMs:   0
+CurrentVoters:          [{"id": 1, "directoryId": null, "endpoints": ["CONTROLLER://broker1:9093"]}, {"id": 2, "directoryId": null, "endpoints": ["CONTROLLER://broker2:9093"]}, {"id": 3, "directoryId": null, "endpoints": ["CONTROLLER://broker3:9093"]}]
+CurrentObservers:       []
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mprintf "830001|{\"nit\":\"830001\",\"formulario\":\"110\",\"periodo\":\"2026-08\"}\n830001|{\"nit\":\"830[27m[7m0[27m[7m01\",\"formulario\":\"300\",\"periodo\":\"2026-08\"}\n900123|{\"nit\":\"900123\",\"formulario\":\"110\",\"periodo\":\"2026-08\"}\n" | \ [27m
+[7mdocker exec -i broker1 /opt/kafka/bin/kafka-console-producer.sh --bootstrap-server broker1:19092 \[27m
+[7m  --topic "$TOPIC" --property parse.key=true --property key.separator="|"[27m[A[A[Aprintf "830001|{\"nit\":\"830001\",\"formulario\":\"110\",\"periodo\":\"2026-08\"}\n830001|{\"nit\":\"830001\",\"formulario\":\"300\",\"periodo\":\"2026-08\"}\n900123|{\"nit\":\"900123\",\"formulario\":\"110\",\"periodo\":\"2026-08\"}\n" | \
+docker exec -i broker1 /opt/kafka/bin/kafka-console-producer.sh --bootstrap-server broker1:19092 \
+  --topic "$TOPIC" --property parse.key=true --property key.separator="|"
+[?2004l[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker exec broker1 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server broker1:19092 \[27m
+[7m  --topic "$TOPIC" --from-beginning --timeout-ms 8000 \[27m
+[7m  --property print.key=true --property print.partition=true --property print.offset=true 2>/dev/null[27m[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec broker1 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server broker1:19092 \
+  --topic "$TOPIC" --from-beginning --timeout-ms 8000 \
+  --property print.key=true --property print.partition=true --property print.offset=true 2>/dev/null
+[?2004lPartition:1	Offset:0	900123	{"nit":"900123","formulario":"110","periodo":"2026-08"}
+Partition:2	Offset:0	830001	{"nit":"830001","formulario":"110","periodo":"2026-08"}
+Partition:2	Offset:1	830001	{"nit":"830001","formulario":"300","periodo":"2026-08"}
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mdocker exec broker1 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server broker1:19092 \[27m
+[7m  --topic "$TOPIC" --from-beginning --group "${EQUIPO}-lab02-lector" --timeout-ms 8000 2>/dev/null >/dev/null[27m
+[7mdocker exec broker1 /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server broker1:19092 --describe --group "${EQUIPO}-lab02-lector"[27m[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec broker1 /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server broker1:19092 \
+  --topic "$TOPIC" --from-beginning --group "${EQUIPO}-lab02-lector" --timeout-ms 8000 2>/dev/null >/dev/null
+docker exec broker1 /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server broker1:19092 --describe --group "${EQUIPO}-lab02-lector"
+[?2004l
+Consumer group 'equipo06-lab02-lector' has no active members.
+
+GROUP                 TOPIC                                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+equipo06-lab02-lector equipo06.lab02.declaracion.presentada 1          1               1               0               -               -               -
+equipo06-lab02-lector equipo06.lab02.declaracion.presentada 0          0               0               0               -               -               -
+equipo06-lab02-lector equipo06.lab02.declaracion.presentada 2          2               2               0               -               -               -[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mkt --list | grep consumer_offsets[27mkt --list | grep consumer_offsets
+[?2004l__[01;31m[Kconsumer_offsets[m[K
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mkt --list | grep consumer_offsets[27mkt --list | grep consumer_offsets
+[?2004l__[01;31m[Kconsumer_offsets[m[K
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@DESKTOP-7O817GL: /home/equipo6/kafka_envroot@DESKTOP-7O817GL:/home/equipo6/kafka_env# [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-10-19 23:18:54-05:00 [COMMAND_EXIT_CODE="130"]
